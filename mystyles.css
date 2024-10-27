@@ -346,9 +346,6 @@ body {
     .box-future {
         padding: 0px 20px;
     }
-    .box-future .info-future .futurepic {
-        width: 100%;
-    }
 
     .aboutjourney {
         display: flex;
