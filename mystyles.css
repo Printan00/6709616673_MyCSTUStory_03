@@ -309,7 +309,7 @@ body {
 
 /* Responsive */
 /* Phone screen */
-@media (min-width: 360px) and (max-width: 767px){ 
+@media (min-width: 360px) and (max-width: 768px){ 
     .navbarhome {
         flex-direction: column;
         width: 100%;
