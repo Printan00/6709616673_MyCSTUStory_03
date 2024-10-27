@@ -309,7 +309,7 @@ body {
 
 /* Responsive */
 /* Phone screen */
-@media screen and (max-width: 360px){ 
+@media (min-width: 360px) and (max-width: 767px){ 
     .navbarhome {
         flex-direction: column;
         width: 100%;
@@ -367,57 +367,7 @@ body {
 /* Phone screen */
 
 /* Tablet screen */
-@media (min-width: 361px) and (max-width: 768px){
-    .homepage .leftcolum, .homepage .rightcolum {
-        float:  none;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        width: 100%;
-        padding: 20px;
-    }
-
-    .homepage .leftcolum{
-        padding-bottom: 0px;
-    }
-
-    .homepage .rightcolum {
-        padding-top: 0px;
-    }
-
-    .rightcolum .card .mypic {
-        width: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .myvideo {
-        width: 100%;
-    }
-    .box-future .info-future {
-        width: 100%;
-    }
+@media (min-width: 768px) and (max-width:1279px){
     
-    .box-future {
-        padding: 0px 20px;
-    }
-    .box-future .info-future .futurepic {
-        width: 70%;
-    }
-    
-    .copyright {
-        position: relative;
-        top: 115px;
-    }
-
-    .container-journey1, .container-journey2 , .container-journey3 , .container-journey4 {
-        padding: 0px;
-        padding-top: 20px;
-    }
-    
-    .info-journey {
-        width: 70%;
-    }
 }
 /* Tablet screen */
