@@ -242,7 +242,7 @@ body {
 /******************************* myjourney.html*******************************/
 .aboutjourney {
     width: 100%;
-    height: 100%h;
+    height: 100%;
     margin-top: 20px; 
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -382,6 +382,26 @@ body {
     
     .myvideo {
         width: 100%;
+    }
+
+    .info-future {
+        width: 80%;
+    }
+
+    .aboutjourney {
+        height: 90vh;
+    }
+
+    .container-journey1 , .container-journey2 , .container-journey3 , .container-journey4 {
+        padding: 0px;
+    }
+
+    .info-journey {
+        width: 80%;
+    }
+
+    .container-journey3 , .container-journey4 {
+        padding-top: 1rem;
     }
 }
 /* Tablet screen */
