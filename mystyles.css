@@ -395,5 +395,29 @@ body {
     .myvideo {
         width: 100%;
     }
+    .box-future .info-future {
+        width: 100%;
+    }
+    
+    .box-future {
+        padding: 0px 20px;
+    }
+    .box-future .info-future .futurepic {
+        width: 70%;
+    }
+    
+    .copyright {
+        position: relative;
+        top: 115px;
+    }
+
+    .container-journey1, .container-journey2 , .container-journey3 , .container-journey4 {
+        padding: 0px;
+        padding-top: 20px;
+    }
+    
+    .info-journey {
+        width: 70%;
+    }
 }
 /* Tablet screen */
