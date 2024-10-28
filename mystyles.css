@@ -403,5 +403,10 @@ body {
     .container-journey3 , .container-journey4 {
         padding-top: 1rem;
     }
+    .copyright {
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+    }
 }
 /* Tablet screen */
